@@ -19,13 +19,22 @@ export function App() {
   }
 
   return (
-    <header>
-      <h1>Dogアプリ</h1>
-      <p>説明文</p>
-      <img src={dogUrl}></img>
-      <button onClick={() => getDogUrl()}>
-        更新
-      </button>
-    </header>
+    <body>
+      <div class="text">
+        <p>説明文</p>
+      </div>
+      <div class="content">
+        <div class="img">
+          <img src={dogUrl}></img>
+        </div>
+        <br></br>
+        <div class="button-place">
+          <button onClick={() => getDogUrl()}>
+            更新
+          </button>
+        </div>
+      </div>
+
+    </body>
   )
 }

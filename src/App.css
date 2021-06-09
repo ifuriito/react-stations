@@ -1,0 +1,33 @@
+header {
+    background-color: aqua
+}
+
+header .wrapper {
+    text-align: center;
+}
+
+body {
+    background-color: goldenrod;
+}
+
+.content {
+    float: right;
+}
+
+.button-place {
+    float: right;
+}
+
+button {
+    color:white;
+    background-color: blue;
+}
+
+.text {
+    text-align: center;
+    width: 75%;
+}
+
+.text p {
+    font-size: 20px;
+}
